@@ -1,1 +1,26 @@
+:root {
+    --color-title:#00C2CB;
+    --color-login:#00C2CB;
+    --color-disaccept:#FF0404;
+    --color-primary:#FFFFFF;
+}
 
+ion-title {
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+    color:#00C2CB;
+}
+.profile {
+    text-align:center;
+    margin-top: 50px;
+}
+
+img {
+    border-radius:50%;
+    width:100px;
+    height:100px
+}
+ion-label {
+    font-size:14px;
+}

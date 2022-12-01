@@ -1,4 +1,23 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+:root {
+  --color-title:#00C2CB;
+  --color-login:#00C2CB;
+  --color-disaccept:#FF0404;
+  --color-primary:#FFFFFF;
+}
+
+ion-title {
+  font-size:24px;
+  font-weight:bold;
+  text-align:center;
+  color:#00C2CB;
+}
+
+.content{
+  margin-top: 50px;
+}
+.description {
+  border-radius:5px;
+  padding: 2%;
+  margin: 2%;
+  background-color: #00C2CB;
 }
